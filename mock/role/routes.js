@@ -51,7 +51,7 @@ const constantRoutes = [
     children: [
       {
         path: 'index',
-        component: 'views/documentation/index',
+        component: '@/views/documentation/index',
         name: 'Documentation',
         meta: { title: 'Documentation', icon: 'documentation', affix: true }
       }
